@@ -34,7 +34,8 @@ cd NewsMind
 uv init
 
 # Sync dependencies
-uv pip install newspaper3k lxml_html_clean llama-cpp-python
+uv add newspaper3k lxml_html_clean
+uv add llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 
 # Run the script
 uv run main.py
