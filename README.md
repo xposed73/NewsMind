@@ -23,7 +23,6 @@ NewsMind extracts articles from multiple global news sources, summarizes them us
 ### ✅ Prerequisites
 
 Install `uv`:
-[https://docs.astral.sh/uv/getting-started/installation/#installation-methods](https://docs.astral.sh/uv)
 ```bash
 
 # Clone the repo
