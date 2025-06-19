@@ -36,7 +36,9 @@ uv sync
 uv run main.py
 
 
-```python
+```
+
+```py
 # Add news sources
 WEBSITES = [
     'https://www.reuters.com/world/',
