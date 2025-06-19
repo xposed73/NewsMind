@@ -27,15 +27,11 @@ https://docs.astral.sh/uv/getting-started/installation/#installation-methods
 ```bash
 
 # Clone the repo
-git clone https://github.com/yourusername/NewsMind.git
+git clone https://github.com/xposed73/NewsMind.git
 cd NewsMind
 
-# Create virtual environment
-uv init
-
 # Sync dependencies
-uv add newspaper3k lxml_html_clean
-uv add llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+uv sync
 
 # Run the script
 uv run main.py
