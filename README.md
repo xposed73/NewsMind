@@ -37,14 +37,15 @@ uv run main.py
 
 
 ```
-
+#Customization
 ```py
-# Add news sources
+# Add your preferred news sources
 WEBSITES = [
     'https://www.reuters.com/world/',
     'https://www.bbc.com/news',
     'https://www.aljazeera.com/news/',
 ]
 
-# Your model path
+# Path to your GGUF model
 MODEL_PATH = "mistral-7b-v0.1.Q2_K.gguf"
+
