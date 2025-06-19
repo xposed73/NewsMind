@@ -16,9 +16,30 @@ NewsMind extracts articles from multiple global news sources, summarizes them us
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ Installation (using [`uv`](https://github.com/astral-sh/uv) - recommended)
 
-Install dependencies:
+`uv` is a fast Python package/dependency manager with built-in virtualenv support.
+
+### ✅ Prerequisites
+
+Install `uv`:
 
 ```bash
-pip install newspaper3k lxml_html_clean llama-cpp-python
+# via cargo (recommended)
+cargo install uv
+
+# or via install script
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Clone the repo
+git clone https://github.com/yourusername/NewsMind.git
+cd NewsMind
+
+# Create virtual environment
+uv init
+
+# Sync dependencies
+uv pip install newspaper3k lxml_html_clean llama-cpp-python
+
+# Run the script
+uv run main.py
