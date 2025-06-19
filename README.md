@@ -34,3 +34,17 @@ uv sync
 
 # Run the script
 uv run main.py
+
+
+```python
+# Add news sources
+WEBSITES = [
+    'https://www.reuters.com/world/',
+    'https://www.bbc.com/news',
+    'https://www.aljazeera.com/news/',
+]
+
+# Your model path
+MODEL_PATH = "mistral-7b-v0.1.Q2_K.gguf"
+
+```
