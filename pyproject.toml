@@ -1,7 +1,7 @@
 [project]
 name = "newsmind"
 version = "0.1.0"
-description = "Add your description here"
+description = "Local AI-powered news aggregator that extracts and summarizes news from multiple sources using a GGUF-based LLM."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
