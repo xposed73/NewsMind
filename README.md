@@ -37,15 +37,20 @@ uv run main.py
 
 
 ```
-#Customization
-```py
-# Add your preferred news sources
+## 🔧 Customization
+
+You can easily configure which sources to pull news from and which local LLM model to use:
+
+```python
+# ✅ Add your preferred news sources
 WEBSITES = [
     'https://www.reuters.com/world/',
     'https://www.bbc.com/news',
     'https://www.aljazeera.com/news/',
+    # Add more sources as needed
 ]
 
-# Path to your GGUF model
+# 🧠 Path to your GGUF model (downloaded locally)
 MODEL_PATH = "mistral-7b-v0.1.Q2_K.gguf"
+
 
