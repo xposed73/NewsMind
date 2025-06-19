@@ -46,5 +46,3 @@ WEBSITES = [
 
 # Your model path
 MODEL_PATH = "mistral-7b-v0.1.Q2_K.gguf"
-
-```
