@@ -56,8 +56,9 @@ MODEL_PATH = "mistral-7b-v0.1.Q2_K.gguf"
 
 ## 🙏 Support My Work
 
-If you find this project helpful, consider supporting it by donating via UPI.
+If you find this project useful, consider supporting it by donating via UPI.
 
-![Donate via UPI](https://raw.githubusercontent.com/xposed73/YTDL-python/main/upi-donation.png)
+![Donate via UPI](upi-donation.png)
 
 Thank you for your support! ❤️
+
